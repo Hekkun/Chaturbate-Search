@@ -98,7 +98,7 @@
 	
 	var button = document.createElement("Button");
 	button.innerHTML = "Title";
-	button.style = "top:100;right:100;position:absolute;z-index: 19999"
+	button.style = "top:100 px;right:100 px;position:absolute;z-index: 19999"
 	document.body.appendChild(button);
 	
 })();
