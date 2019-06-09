@@ -66,9 +66,8 @@
 	}
 
 	
-	
-	addCss('https://github.com/Hekkun/Chaturbate-Search/raw/master/bubbler.min.css');
 	addCss('https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+	addCss('https://github.com/Hekkun/Chaturbate-Search/raw/master/bubbler.min.css');
 	
 	var zNode = document.createElement('div');
 	
