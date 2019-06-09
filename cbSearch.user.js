@@ -53,6 +53,23 @@
 	    body.appendChild(bubbler_wrapper)
 	}
 	
+	function addCss(fileName) {
+
+	  var head = document.head;
+	  var link = document.createElement("link");
+
+	  link.type = "text/css";
+	  link.rel = "stylesheet";
+	  link.href = fileName;
+
+	  head.appendChild(link);
+	}
+
+	
+	
+	addCss('https://github.com/Hekkun/Chaturbate-Search/raw/master/bubbler.min.css');
+	addCss('https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+	
 	var zNode = document.createElement('div');
 	
 	var options =
