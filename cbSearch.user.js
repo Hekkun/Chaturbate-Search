@@ -94,11 +94,11 @@
 	  }
 	];
 	
-	var context = new Bubbler(options);
+	//var context = new Bubbler(options);
 	
 	var button = document.createElement("Button");
 	button.innerHTML = "Title";
-	button.style = "top:100 px;right:100 px;position:absolute;z-index: 19999"
+	button.style = "top:100px;right:100px;position:absolute;z-index: 19999"
 	document.body.appendChild(button);
 	
 })();
