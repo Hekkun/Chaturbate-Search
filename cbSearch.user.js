@@ -2,7 +2,7 @@
 // @name         Chaturbate Search
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Search chatrubate models on camcaps.me
+// @description  Search for Chaturbate models on camcaps.me
 // @author       hekkun
 // @match        https://chaturbate.com/*/
 // @grant        none
