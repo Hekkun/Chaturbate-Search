@@ -41,7 +41,7 @@
 
 	
 	addCss('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css');
-	addScript('https://github.com/Hekkun/Chaturbate-Search/raw/master/bubbler.min.css');
+	addScript('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js');
 	
 	
 	//var context = new Bubbler(options);
