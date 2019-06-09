@@ -6,8 +6,8 @@
 // @author       hekkun
 // @match        https://chaturbate.com/*/
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/Hekkun/Chaturbate-Search/master/chsearch.js?token=AL3GA5DYRTVKUDD4UZWFOOS47V3Z6
-// @updateURL    https://raw.githubusercontent.com/Hekkun/Chaturbate-Search/master/chsearch.js?token=AL3GA5DYRTVKUDD4UZWFOOS47V3Z6
+// @downloadURL  https://github.com/Hekkun/Chaturbate-Search/raw/master/cbSearch.user.js
+// @updateURL    https://github.com/Hekkun/Chaturbate-Search/raw/master/cbSearch.user.js
 // ==/UserScript==
 
 (function() {
