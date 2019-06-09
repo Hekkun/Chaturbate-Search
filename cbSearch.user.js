@@ -56,7 +56,9 @@
 		  </ul>
 		</div>
 	`;
-	document.body.appendChild(fabhtml);
+	var fab = document.createElement('div');
+	fab.innerHTML = fabhtml;
+	document.body.appendChild(fab);
 	
 	document.addEventListener('DOMContentLoaded', function() {
 	    var elems = document.querySelectorAll('.fixed-action-btn');
