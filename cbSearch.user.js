@@ -51,7 +51,7 @@
 	}
 	else if(host == "camcaps.me")
 	{
-		modurl = url.match(/.\/*chaturbate-(.*)/);
+		modurl = url.match(/.\/*chaturbate-(.*)/) [1];
 		console.log(modurl);
 		
 		finalurl = "https://chaturbate.com/" + modurl;
