@@ -37,7 +37,7 @@
     function ButtonClickAction (zEvent) {
 	var host = window.location.hostname;
 	var url = window.location.pathname;
-	var finalurl = "";
+	var finalurl, modurl = "";
 	    
 	console.log(host, url);
 	if (host == "chaturbate.com")
