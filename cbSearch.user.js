@@ -36,25 +36,29 @@
 
     function ButtonClickAction (zEvent) {
 	var host = window.location.hostname;
-	console.log(host);
+	var url = window.location.pathname;
+	var finalurl = "";
+	    
+	console.log(host, url);
 	if (host == "chaturbate.com")
 	{
 		console.log("At cbate");
+		
+		modurl = url.replace(/^\/|\/$/g, '');
+		console.log(modurl);
+		
+		finalurl = "http://camcaps.me/search/" + modurl;
 	}
 	else if(host == "camcaps.me")
 	{
+		modurl = url.match(/.\/*chaturbate-(.*)/);
+		console.log(modurl);
+		
+		finalurl = "https://chaturbate.com/" + modurl;
 		console.log("At ccaps");
-	}
-	    
-	var url = window.location.pathname;
-	console.log(url);
-        url = url.replace(/^\/|\/$/g, '');
-	console.log(url);
-	    
-
-        var camcaps_url = "http://camcaps.me/search/" + url
-
-        GM_openInTab(camcaps_url);
+	}        
+	
+	GM_openInTab(finalurl);
     }
 
     //--- Style our newly added elements using CSS.
