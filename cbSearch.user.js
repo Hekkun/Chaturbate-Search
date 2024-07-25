@@ -35,10 +35,22 @@
 
 
     function ButtonClickAction (zEvent) {
-        var url = window.location.pathname;
+	var hostm = window.location.hostname;
+	console.log(host);
+	if (host == "chaturbate.com")
+	{
+		console.log("At cbate");
+	}
+	else if(host == "camcaps.me")
+	{
+		console.log("At ccaps");
+	}
+	    
+	var url = window.location.pathname;
 	console.log(url);
         url = url.replace(/^\/|\/$/g, '');
 	console.log(url);
+	    
 
         var camcaps_url = "http://camcaps.me/search/" + url
 
