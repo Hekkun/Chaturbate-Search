@@ -22,7 +22,7 @@
 
     var zNode = document.createElement ('div');
     zNode.innerHTML = '<button id="myButton" type="button">'
-        + 'camcaps.me</button>'
+        + 'Search...</button>'
     ;
     zNode.setAttribute ('id', 'myContainer');
     document.body.appendChild (zNode);
