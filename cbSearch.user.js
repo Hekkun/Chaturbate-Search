@@ -5,6 +5,7 @@
 // @description	Search for Chaturbate models on camcaps.me
 // @author	hekkun
 // @match	https://chaturbate.com/*/
+// @match	http://camcaps.me/all-models-videos/p/*
 // @include	http://www.blank.org/
 // @exclude	https://chaturbate.com/tag/*
 // @exclude	https://chaturbate.com/*-cams/
@@ -35,7 +36,9 @@
 
     function ButtonClickAction (zEvent) {
         var url = window.location.pathname;
+	console.log(url);
         url = url.replace(/^\/|\/$/g, '');
+	console.log(url);
 
         var camcaps_url = "http://camcaps.me/search/" + url
 
