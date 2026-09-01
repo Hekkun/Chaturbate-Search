@@ -37,7 +37,7 @@
     function ButtonClickAction (zEvent) {
 	var host = window.location.hostname;
 	var url = window.location.pathname;
-	var finalurl, modurl = "";
+	var finalurl, finalurl2, modurl = "";
 	    
 	console.log(host, url);
 	if (host == "chaturbate.com")
@@ -48,6 +48,7 @@
 		console.log(modurl);
 		
 		finalurl = "http://camcaps.me/search/" + modurl;
+		finalurl2 = "https://camsmut.com/search?q=" + modurl;
 	}
 	else if(host == "camcaps.me")
 	{
@@ -60,6 +61,10 @@
 	}        
 	
 	GM_openInTab(finalurl);
+	if(finalurl2 !== ""){
+		GM_openInTab(finalurl2);
+	}
+	
     }
 
     //--- Style our newly added elements using CSS.
